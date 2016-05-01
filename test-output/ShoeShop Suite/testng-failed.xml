@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ShoeShop Suite]">
+  <test name="MonthlyShoeDisplaysTest(failed)">
+    <classes>
+      <class name="com.selenium.suite.shoeshop.MonthlyShoeDisplaysTest">
+        <methods>
+          <include name="verifyTestSuiteRunmode"/>
+          <include name="verifyTestCaseRunmode"/>
+          <include name="updateDataSetStatus"/>
+          <include name="updateTestStatus"/>
+          <include name="testMontlyShoeDisplays" invocation-numbers="10 12"/>
+        </methods>
+      </class> <!-- com.selenium.suite.shoeshop.MonthlyShoeDisplaysTest -->
+      <class name="com.selenium.suite.shoeshop.EmailSubscriptionTest">
+        <methods>
+          <include name="verifyTestCaseRunmode"/>
+          <include name="updateDataSetStatus"/>
+          <include name="updateTestStatus"/>
+        </methods>
+      </class> <!-- com.selenium.suite.shoeshop.EmailSubscriptionTest -->
+    </classes>
+  </test> <!-- MonthlyShoeDisplaysTest(failed) -->
+</suite> <!-- Failed suite [ShoeShop Suite] -->

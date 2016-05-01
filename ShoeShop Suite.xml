@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ShoeShop Suite">
+	
+	<test name="EmailSubscriptionTest">
+		<classes>
+			<class name="com.selenium.suite.shoeshop.EmailSubscriptionTest"></class>
+		</classes>
+	</test>
+	<test name="MonthlyShoeDisplaysTest">
+		<classes>
+			<class name="com.selenium.suite.shoeshop.MonthlyShoeDisplaysTest"></class>
+		</classes>
+	</test> 
+</suite>
